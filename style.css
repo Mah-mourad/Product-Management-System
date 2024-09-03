@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 39, 39);
+}
+#body{
+    text-align: center;
+}
+#body .head{
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.form input,
+.form button{
+    width: 100%;
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.form input{
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+.form input:focus{
+    transform: scale(1.1);
+}
+button{
+    background-color: rgb(61, 22, 99);
+    cursor: pointer;
+    color: white;
+}
+.form #num {
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+.form #num input{
+    margin-right: 5px;
+}
+#total{
+    background-color: rgb(145, 2, 2);
+    padding: 8px 3px ;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+}
+#total::before{
+    content: "Total: ";
+}
+.twoBtn{
+    display: flex;
+    align-items: center;
+}
+.twoBtn #searchTitle{
+    margin-right: 10px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+table tr td button{
+    width: 80%;
+    border-radius: 20px;
+    padding: 7px;
+}
+td,
+th{
+    padding: 5px;
+}
