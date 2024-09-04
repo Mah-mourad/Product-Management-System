@@ -15,11 +15,17 @@
         <div class="form">
                 <input type="text" id="title" placeholder="Title">
             <div id="num">
-                <input onclick="getTotal()" type="number" id="price" placeholder="Price">
-                <input onclick="getTotal()" type="number" id="taxes" placeholder="Taxes">
-                <input onclick="getTotal()" type="number" id="ads" placeholder="Ads">
-                <input onclick="getTotal()" type="number" id="discount" placeholder="Discount">
+                <div id="total1">
+                    <input onclick="getTotal()" type="number" id="price" placeholder="Price">       
+                    <input onclick="getTotal()" type="number" id="taxes" placeholder="Taxes">
+                </div>
+                <div id="total2">
+                    <input onclick="getTotal()" type="number" id="ads" placeholder="Ads">
+                    <input onclick="getTotal()" type="number" id="discount" placeholder="Discount">
+                </div>
+                <div class="total-parent">
                 <small id="total">51153</small>
+                </div>
             </div>
             <input type="number" id="count" placeholder="Count">
             <input type="text" id="category" placeholder="Category">
